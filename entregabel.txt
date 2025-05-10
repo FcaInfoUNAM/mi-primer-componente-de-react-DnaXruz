@@ -1,0 +1,11 @@
+¿De dónde sale la etiqueta Navigation?
+Sale del import que estamos haciendo de otro archivo en la linea: import { Navigation } from './Navigation'
+
+Si te das cuenta recibe 2 parametros, explica en entregable.txt cómo se recibieron esos parametros
+Lo que hace es en la etiqueta Navigation en app srcImg={logo} items={navigationItems} le mandamos la informacion declarada en las variables, y son sustituidas en el codigo que se carga de Navigation
+
+¿donde se importan los archivos css, las imagenes y cómo es que se importa un componente?
+el css lo tenemos en la carpeta de SRC y lo ocupamos con import './App.css' y afecta a todo lo que este en el archivo en donde lo mandamos a llamar, las imagenes las importamos con vite como un modulo mas, facilitando la actualizacion de rutas
+y un componente se manda a llamar con la ruta del archivo import { Nombre } from './Ruta'
+
+
